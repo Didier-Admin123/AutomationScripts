@@ -1,0 +1,173 @@
+/*STYLES SHEET FOR WEPAPPS 
+Author: DJ Dorcelus
+
+
+
+*/
+
+body {
+background-color:#EFECEC;
+
+
+}
+
+div.img {
+    margin: 5px;
+    float: left;
+    width: 180px;
+	border: 2px solid white;
+	 border-radius: 5px;
+   /*box-shadow: 10px 10px 5px #888888; */
+  box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+}
+
+
+div.img:hover {
+  border: 2px solid white;
+	
+	  border-radius: 5px;
+	    background-color:white;
+	  color:black;
+}
+
+div.img img {
+    width: 50%;
+    height: 50%;
+	border-radius: 5px;
+	 position: relative;
+	   top: 50%;
+    left: 20%;
+	
+}
+
+div.desc {
+    text-align: center;
+}
+
+
+.footer{
+
+  background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+div.bottom{
+	 width:240px;
+	
+}
+
+
+
+/* FORM CSS STYLE BELOW  */
+
+/* input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+} */
+
+	div.form {
+		 width: 50%;
+		float:right;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+	  box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+}
+
+input[type=password], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #e8e6e5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: 0 0 5px 2px rgba(0,0,0,.35);
+}
+
+input[type=submit]:hover {
+    background-color: #ff6666;
+}
+
+
+/* Printer Hover Design Below*/	
+ 
+	/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown a:hover {
+	background-color:#e8e6e5;
+	
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

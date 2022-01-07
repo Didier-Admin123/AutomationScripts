@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    border-collapse: collapse;
+}
+h2 {text-align:center}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{background-color:#f5f5f5}
+</style>
+</head>
+<body>
+<h1>Active Directory Report for empereon.local.
+<h2>Users, Computers & Groups:</h2>
+<h3>Users: 2980</h3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>Label</th><th>Count</th><th>Percent</th></tr> <tr><td>DisabledUsers</td><td>494</td><td>16.58 %</td></tr> <tr><td>ExpiredUser</td><td>0</td><td>0.00 %</td></tr> <tr><td>ExpiringUser</td><td>0</td><td>0.00 %</td></tr> <tr><td>LockedUser</td><td>3</td><td>0.10 %</td></tr> <tr><td>PwdExpiredUser</td><td>0</td><td>0.00 %</td></tr> <tr><td>PwdNeverExpireUser</td><td>2563</td><td>86.01 %</td></tr> <tr><td>AdminUser</td><td>24</td><td>0.81 %</td></tr> </table>
+<h3>Computers: 2930</h3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>Label</th><th>Count</th><th>Percent</th></tr> <tr><td>DisabledComputers</td><td>80</td><td>2.73 %</td></tr> </table>
+<table> <colgroup><col/><col/></colgroup> <tr><th>Name</th><th>Count</th></tr> <tr><td>Windows 7 Professional</td><td>2687</td></tr> <tr><td>Windows Server 2012 R2 Standard</td><td>87</td></tr> <tr><td>Windows 10 Pro</td><td>59</td></tr> <tr><td></td><td>37</td></tr> <tr><td>Windows Server 2008 R2 Standard</td><td>26</td></tr> <tr><td>Windows XP Professional</td><td>9</td></tr> <tr><td>Windows Server 2012 R2 Datacenter</td><td>6</td></tr> <tr><td>Windows Server 2008 R2 Enterprise</td><td>5</td></tr> <tr><td>Windows Server 2003</td><td>4</td></tr> <tr><td>Windows Server 2012 Standard</td><td>2</td></tr> <tr><td>Windows 8.1 Pro</td><td>2</td></tr> <tr><td>Windows Server 2012 Datacenter</td><td>2</td></tr> <tr><td>Windows Server&#174; 2008 Standard</td><td>1</td></tr> <tr><td>Windows Web Server 2008 R2</td><td>1</td></tr> <tr><td>Windows&#174; Storage Server 2008 Standard</td><td>1</td></tr> <tr><td>Windows Server&#174; 2008 Enterprise</td><td>1</td></tr> </table>
+<h3>Groups: 544</h3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>Label</th><th>Count</th><th>Percent</th></tr> <tr><td>AdminGroup</td><td>14</td><td>2.57 %</td></tr> </table>
+<h2>Group Policies: 140</h2>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>Label</th><th>Count</th><th>Percent</th></tr> <tr><td>AllSettingsDisabledGPO</td><td>2</td><td>1.43 %</td></tr> <tr><td>EmptyGPO</td><td>4</td><td>2.86 %</td></tr> </table>
+<h2>Domain Controllers: 3</h2>
+<h3>Statistics</h3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>Label</th><th>Count</th><th>Percent</th></tr> <tr><td>TotalRODC</td><td>0</td><td>0.00 %</td></tr> <tr><td>TotalRWDC</td><td>3</td><td>100.00 %</td></tr> </table>
+<h3>List</h3>
+<table> <colgroup><col/><col/><col/><col/><col/><col/></colgroup> <tr><th>Name</th><th>IPv4Address</th><th>IsGlobalCatalog</th><th>IsReadOnly</th><th>OperatingSystem</th><th>Site</th></tr> <tr><td>ZEPHYRUS</td><td>192.168.1.7</td><td>True</td><td>False</td><td>Windows Server&#174; 2008 Standard</td><td>Phoenix</td></tr> <tr><td>VALENCIA</td><td>172.21.9.100</td><td>True</td><td>False</td><td>Windows Server 2012 R2 Standard</td><td>Denver</td></tr> <tr><td>ROCKY</td><td>172.21.7.10</td><td>True</td><td>False</td><td>Windows Server 2012 R2 Standard</td><td>Denver-CDE</td></tr> </table>
+<h2>Sites & Subnets:</h2>
+<h3>Sites: 8</h3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>Name</th><th>ManagedBy</th><th>InterSiteTopologyGenerator</th></tr> <tr><td>Phoenix</td><td></td><td>CN=NTDS Settings,CN=ZEPHYRUS,CN=Servers,CN=Phoenix,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>Default-First-Site-Name</td><td></td><td>CN=NTDS Settings\0ADEL:0102f9f4-8fde-4305-b057-dfe847060d1a,CN=IMATRA\0ADEL:b0596339-5f90-4be0-aeab-c48ef6013fe0,CN=Servers,CN=Greenville-SC1,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>LasCruces</td><td></td><td>CN=NTDS Settings,CN=NOTUS,CN=Servers,CN=LasCruces,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>Denver</td><td></td><td>CN=NTDS Settings,CN=VALENCIA,CN=Servers,CN=Denver,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>Coudersport</td><td></td><td></td></tr> <tr><td>Denver-CDE</td><td></td><td>CN=NTDS Settings,CN=ROCKY,CN=Servers,CN=Denver-CDE,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>Greenville-SC1</td><td></td><td>CN=NTDS Settings\0ADEL:0102f9f4-8fde-4305-b057-dfe847060d1a,CN=IMATRA\0ADEL:b0596339-5f90-4be0-aeab-c48ef6013fe0,CN=Servers,CN=Greenville-SC1,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>Glendale</td><td></td><td></td></tr> </table>
+<h3>Subnets: 13</h3>
+<table> <colgroup><col/><col/><col/></colgroup> <tr><th>Name</th><th>Location</th><th>Site</th></tr> <tr><td>192.9.1.0/24</td><td></td><td>CN=Denver,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>192.9.2.0/24</td><td></td><td>CN=LasCruces,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.21.20.0/24</td><td></td><td>CN=Denver,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.42.0.0/19</td><td></td><td>CN=LasCruces,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.41.0.0/19</td><td></td><td>CN=Denver,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>192.168.200.0/21</td><td></td><td>CN=Coudersport,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.43.0.0/19</td><td></td><td>CN=Phoenix,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.44.0.0/19</td><td></td><td>CN=Coudersport,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>192.168.0.0/21</td><td></td><td>CN=Phoenix,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.45.0.0/19</td><td></td><td>CN=Glendale,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.21.7.0/24</td><td></td><td>CN=Denver-CDE,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.22.64.0/18</td><td></td><td>CN=Greenville-SC1,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> <tr><td>172.21.0.0/18</td><td></td><td>CN=Denver,CN=Sites,CN=Configuration,DC=empereon,DC=local</td></tr> </table>
+</body>
